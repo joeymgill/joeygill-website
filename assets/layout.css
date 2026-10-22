@@ -31,3 +31,5 @@ body::before{
 .buttons-component a:hover,.back-top:hover{background-color:#92FCFC;transform:scale(1.025)}
 .icons-component a:hover{background-color:#92FCFC;transform:scale(1.1125)}
 @media(prefers-reduced-motion:reduce){.buttons-component a:hover,.icons-component a:hover,.back-top:hover{transform:none}}
+
+.icons-component .dos-link-item{position:relative;margin-left:.35rem}.icons-component .dos-link{border-radius:0;border:1px solid #297d7d}.icons-component .dos-link svg{fill:none;width:26px;height:26px}.dos-tooltip{position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);width:max-content;max-width:min(240px,75vw);padding:.5rem .7rem;background:#163f40;color:#fff;font-size:.875rem;line-height:1.4;border-radius:4px;pointer-events:none;opacity:0;visibility:hidden;z-index:10}.dos-link:hover .dos-tooltip,.dos-link:focus-visible .dos-tooltip{opacity:1;visibility:visible}.icons-component .dos-link:hover{transform:none}
